@@ -1,0 +1,140 @@
+/*Limpar formatação padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Limpaze de formatação*/
+
+body {
+  background: #e6e6e6;
+  font-size: 1em;
+  font-family: Times New Roman, Georgia, sans-serif;
+}
+
+/*
+*** Layout ***
+*/
+#area-cabeçalho {
+  background: #faac58;
+  padding: 20px;
+  text-align: center;
+}
+
+#area-logo,
+#area-menu {
+  padding: 15px;
+}
+
+#area-principal {
+  width: 920px;
+  margin: 0 auto; /*também é possivel centralizar conteudo pelo margin*/
+  padding: 15px;
+}
+
+#area-postagem {
+  width: 660px;
+  float: left;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+}
+
+.postagem {
+  padding: 20px;
+  margin: 10px 5px;
+  background: #fff;
+}
+
+.conteudo-lateral {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.categoria {
+  color: #faac58;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 10px;
+  border-bottom: 1px solid #faac58;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
+
+/*
+*** Formatação Menu ***
+*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #faac58;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#area-cabeçalho a:link,
+#area-cabeçalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover {
+  color: #faac58;
+  background: #fff;
+}
+/*
+***Final Formatação Geral ***
+*/
+
+/*****************************/
+
+/*
+*** Formatação Geral ***
+*/
+h1 {
+  color: #6e6e6e;
+  font-size: 2, 5em;
+}
+
+h2 {
+  color: #faac58;
+}
+
+h3 {
+  color: #6e6e6e;
+  background: #faac58;
+  padding: 5px;
+}
+
+.branco {
+  color: #fff;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #faac58;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/*
+*** Final Formatação Geral ***
+*/
